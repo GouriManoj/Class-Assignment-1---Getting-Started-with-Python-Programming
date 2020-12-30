@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Dec 30 09:00:50 2020
+
+@author: Gouri Manoj
+"""
+
+import collections
+my_list = [10,10,10,10,20,20,20,20,40,40,50,50,30]
+print("Original List : ",my_list)
+ctr = collections.Counter(my_list)
+print("Frequency of the elements in the List : ",ctr)
